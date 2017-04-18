@@ -18,5 +18,4 @@ remove: [
         ]
 depends: [ "ocamlfind" { build }
            "menhir" { build } ]
-conflicts: [ "llvm"  { != "3.9" } ]
 depopts: [ "llvm" ]
